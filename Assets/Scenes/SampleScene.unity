@@ -1142,7 +1142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b29b6c6428c984a8a73ffc2d58063b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider
-  m_Mediator: {fileID: 0}
+  m_Mediator: {fileID: 2072271831}
   m_TransformationPriority: 0
   m_TurnSpeed: 60
   m_EnableTurnLeftRight: 1
@@ -2677,7 +2677,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 017c5e3933235514c9520e1dace2a4b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
-  m_ActionAssets: []
+  m_ActionAssets:
+  - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &1565501616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2704,7 +2705,7 @@ Transform:
   m_GameObject: {fileID: 1565501614}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.74170136, z: -0, w: 0.67073035}
-  m_LocalPosition: {x: -10.07162, y: 5, z: 0}
+  m_LocalPosition: {x: 0.2, y: 1, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3600,14 +3601,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1862931257}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 626a4d6723d6ad24b9aebb811ad5a3dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider
-  m_Mediator: {fileID: 0}
+  m_Mediator: {fileID: 2072271831}
   m_TransformationPriority: 0
-  m_MoveSpeed: 150
+  m_MoveSpeed: 1
   m_InAirControlModifier: 0.5
   m_EnableStrafe: 1
   m_EnableFly: 0
